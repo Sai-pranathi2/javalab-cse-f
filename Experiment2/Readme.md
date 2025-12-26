@@ -45,8 +45,8 @@ System.out.println("Addition of doubles:"+obj.add(2.5,3.5));
 ```
 # output
 <img width="1920" height="331" alt="Screenshot 2025-12-26 192822" src="https://github.com/user-attachments/assets/73eaaa36-8e1c-4a3f-96ca-6b7ea0d498c4" />
-
 ```
+
 # TITLE : 2c.) Display the StudentConstructor
 ```
 lass StudentConstructor{
