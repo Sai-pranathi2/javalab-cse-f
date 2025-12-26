@@ -21,7 +21,7 @@ s1.display();
 ```
 # output
 <img width="1920" height="310" alt="Screenshot 2025-12-26 200247" src="https://github.com/user-attachments/assets/55541128-bef4-4300-89b2-2a20d92f81b6" />
-# TITLE :2b.) Display the MethodOverloading
+# TITLE : 2b.) Display the MethodOverloading
 ```
 class MethodOverloading {
 int add(int a,int b){
