@@ -1,7 +1,7 @@
 ## Experiment2
 # TITLE : 2a.) Display the Student
 ```
-lass student1{
+class student1{
 int id;
 String name;
 void setdata(int i,String n){
