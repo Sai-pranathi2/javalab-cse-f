@@ -44,4 +44,4 @@ class Fibonacci {
 }
 ```
 #output
-<img width="1920" height="1080" alt="Screenshot 2026-01-03 122710" src="https://github.com/user-attachments/assets/3b914d3f-62e4-49e4-93b9-18a31df8431e" />
+<img width="1920" height="654" alt="additional experriment-2 output" src="https://github.com/user-attachments/assets/b00865d2-c6de-43b6-a668-26a7b0510eb9" />
