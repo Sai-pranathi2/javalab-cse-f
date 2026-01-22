@@ -86,7 +86,7 @@ class BinarySearch {
 
 
 ```
-## Main
+## Main.java
 ```
 import java.util.Scanner;
 
@@ -142,7 +142,7 @@ class Main {
 
 }
 ```
-## Main
+## Main.java
 ```
 import java.util.Scanner;
  class Main {
