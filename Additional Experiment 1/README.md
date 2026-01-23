@@ -45,3 +45,5 @@ class SubString {
 ```
 ## output
 <img width="1920" height="1080" alt="additional 1 output" src="https://github.com/user-attachments/assets/8e614534-4e7e-4dfc-945e-ea085b896810" />
+
+
