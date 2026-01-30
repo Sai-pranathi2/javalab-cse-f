@@ -140,3 +140,64 @@ public class TestVehicle {
 
 ## output
 <img width="1920" height="1080" alt="exp4b" src="https://github.com/user-attachments/assets/dd34de6e-ea0f-427d-80a3-f9a00cdbb5cd" />
+
+
+## Experiment-4c
+## TITLE:4c)To find the areas of different shapes
+## Figure
+```
+abstract class Figure {
+    double dim1;
+    double dim2;
+
+    Figure(double dim1, double dim2) {
+        this.dim1 = dim1;
+        this.dim2 = dim2;
+}
+abstract double area();
+}
+
+```
+## Rectangle
+```
+class Rectangle extends Figure {
+
+    Rectangle(double length, double breadth) {
+        super(length, breadth);
+    }
+
+    double area() {
+        return dim1 * dim2;
+    }
+}
+```
+##  Triangle
+```
+class Triangle extends Figure {
+
+    Triangle(double base, double height) {
+        super(base, height);
+    }
+
+    double area() {
+        return 0.5 * dim1 * dim2;
+    }
+}
+```
+## Test figure
+```
+public class TestFigure {
+    public static void main(String[] args) {
+
+        Figure f1 = new Rectangle(10, 5);
+        System.out.println("Area of Rectangle = " + f1.area());
+
+        Figure f2 = new Triangle(6, 4);
+        System.out.println("Area of Triangle = " + f2.area());
+    }
+}
+```
+
+
+## output
+<img width="1920" height="1080" alt="exp4c" src="https://github.com/user-attachments/assets/a78add6a-ca76-4107-8f4d-1473851dd15e" />
