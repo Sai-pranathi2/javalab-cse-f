@@ -159,3 +159,34 @@ public class TestVehicle {
 
 
 
+## Experiment-5c
+## Title:)JAVA program using StringBuffer to delete, remove character.
+## SourceCode
+```
+  GNU nano 8.7                        StringBufferDeleteDemo.java
+public class StringBufferDeleteDemo {
+
+    public static void main(String[] args) {
+
+        // Create StringBuffer object
+        StringBuffer sb = new StringBuffer("Java Programming");
+
+        // Display original string
+        System.out.println("Original String: " + sb);
+
+        // Delete a single character at index 4
+        sb.deleteCharAt(4);
+        System.out.println("After deleting character at index 4: " + sb);
+
+        // Delete a range of characters from index 0 to 4
+        sb.delete(0, 4);
+        System.out.println("After deleting characters from index 0 to 4: " + sb);
+    }
+}
+```
+## OutPut
+<img width="1920" height="1080" alt="Screenshot 2026-02-13 160018" src="https://github.com/user-attachments/assets/347a6ba4-98c7-4d1a-9ffe-7b21283542b8" />
+
+
+
+
