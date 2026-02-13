@@ -1,0 +1,104 @@
+## Experiment-5
+## Experiment-5a
+## Title:)Java program to implement interface
+## Sortable
+```
+public interface Sortable {
+    void sort(int[] arr);
+}
+
+```
+## Bubblesort
+```
+public class BubbleSort implements Sortable {
+
+    public void sort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+```
+## SelectionSort
+```
+public class SelectionSort implements Sortable {
+
+    public void sort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            int min = i;
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[min]) {
+                    min = j;
+                }
+            }
+            int temp = arr[min];
+            arr[min] = arr[i];
+            arr[i] = temp;
+        }
+    }
+}
+```
+## Testsort
+```
+import java.util.Scanner;
+
+public class TestSort {
+
+    static void printArray(int[] arr) {
+        for (int x : arr) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        // -------- Bubble Sort Input --------
+        System.out.print("Enter number of elements for Bubble Sort: ");
+        int n1 = sc.nextInt();
+
+        int[] arr1 = new int[n1];
+        System.out.println("Enter elements:");
+        for (int i = 0; i < n1; i++) {
+            arr1[i] = sc.nextInt();
+        }
+
+        Sortable ref = new BubbleSort();
+        ref.sort(arr1);
+        System.out.println("Array sorted using Bubble Sort:");
+        printArray(arr1);
+
+        // -------- Selection Sort Input --------
+        System.out.print("Enter number of elements for Selection Sort: ");
+        int n2 = sc.nextInt();
+
+        int[] arr2 = new int[n2];
+        System.out.println("Enter elements:");
+        for (int i = 0; i < n2; i++) {
+            arr2[i] = sc.nextInt();
+        }
+
+        ref = new SelectionSort();
+        ref.sort(arr2);
+        System.out.println("Array sorted using Selection Sort:");
+        printArray(arr2);
+
+        sc.close();
+    }
+}
+```
+## Output
+<img width="1920" height="1080" alt="Screenshot 2026-02-13 160505" src="https://github.com/user-attachments/assets/9ecd7635-0f8c-4b42-bbaa-46ac6416931f" />
+
+
+}
+
