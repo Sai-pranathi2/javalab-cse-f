@@ -97,7 +97,8 @@ public class TestSort {
 }
 ```
 ## Output
-<img width="1920" height="1080" alt="Screenshot 2026-02-13 160505" src="https://github.com/user-attachments/assets/9ecd7635-0f8c-4b42-bbaa-46ac6416931f" />
+<img width="1920" height="978" alt="exp-5a output" src="https://github.com/user-attachments/assets/c3286dd0-93dd-4329-b3e9-423eec8437d6" />
+
 
 
 
@@ -153,7 +154,8 @@ public class TestVehicle {
 }
 ```
 ## Output
-<img width="1920" height="1080" alt="Screenshot 2026-02-13 161125" src="https://github.com/user-attachments/assets/3d447729-80c1-4d27-98ca-1c0e22a2b2b3" />
+<img width="1920" height="972" alt="exper-5b" src="https://github.com/user-attachments/assets/a0df1cc8-31f1-46b4-8953-93efd7c8ed8a" />
+
 
 
 
@@ -184,7 +186,8 @@ public class StringBufferDeleteDemo {
 }
 ```
 ## OutPut
-<img width="1920" height="1080" alt="Screenshot 2026-02-13 160018" src="https://github.com/user-attachments/assets/347a6ba4-98c7-4d1a-9ffe-7b21283542b8" />
+<img width="1920" height="573" alt="exp-5c" src="https://github.com/user-attachments/assets/45c36bbd-5f94-4b56-9724-461ee36f8293" />
+
 
 
 
