@@ -114,8 +114,7 @@ class vehicle {
 }
 ```
 ## Car
-```
-  GNU nano 8.7                                 Car.java
+```                             
 class car extends vehicle {
 
     @Override
