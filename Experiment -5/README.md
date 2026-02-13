@@ -106,5 +106,56 @@ public class TestSort {
 ## Title:)Implement Runtime 
 ## Vehicle
 ```
+class vehicle {
+
+    void run() {
+        System.out.println("vehicle is running");
+    }
+}
+```
+## Car
+```
+  GNU nano 8.7                                 Car.java
+class car extends vehicle {
+
+    @Override
+    void run() {
+        System.out.println("car is running on four wheels");
+    }
+}
+```
+## Bike
+```
+class Bike extends vehicle {
+
+    @Override
+    void run() {
+        System.out.println("bike is running on two wheels");
+    }
+}
+```
+##  TestVehicle
+```
+public class TestVehicle {
+
+    public static void main(String[] args) {
+
+        vehicle v;   // base class reference
+
+        v = new car();
+        v.run();     // calls car's run()
+
+        v = new Bike();
+        v.run();     // calls bike's run()
+
+        v = new vehicle();
+        v.run();     // calls vehicle's run()
+    }
+}
+```
+## Output
+<img width="1920" height="1080" alt="Screenshot 2026-02-13 161125" src="https://github.com/user-attachments/assets/3d447729-80c1-4d27-98ca-1c0e22a2b2b3" />
+
+
 
 
