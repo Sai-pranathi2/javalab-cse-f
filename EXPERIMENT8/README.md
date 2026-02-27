@@ -65,6 +65,7 @@ public class TestDaemon {
 ```
 ## OutPut
 
+<img width="1920" height="823" alt="exp8a" src="https://github.com/user-attachments/assets/e3d4271a-2c36-4212-9e77-2c2a6c306669" />
 
 
 
@@ -200,11 +201,7 @@ public class ProducerConsumer {
 ## OutPut
 
 
-
-
-
-
-
+<img width="1920" height="965" alt="exp8b" src="https://github.com/user-attachments/assets/0c6fcaf0-ac03-4ad6-af10-c792d155af0e" />
 
 
 
@@ -271,3 +268,4 @@ public class Calculate {
 }
 ```
 ## Output
+<img width="1920" height="934" alt="exp8c" src="https://github.com/user-attachments/assets/bddc45d2-1272-4809-a862-1993b91642e8" />
