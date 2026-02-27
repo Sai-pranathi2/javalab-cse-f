@@ -1,6 +1,6 @@
 ## Experiment -8
 ## Experiment-8a
-## Title:)
+## Title:)Illustrating demon threads
 ## SourceCode
 ```
 // DaemonThread class
@@ -84,7 +84,7 @@ public class TestDaemon {
 
 
 ## Experiment-8b
-##  Title:)
+##  Title:)Producer-Consumer Problem
 ## SourceCode
 ```
 // Buffer class (Shared Resource)
@@ -209,7 +209,7 @@ public class ProducerConsumer {
 
 
 ## Experiment-8c
-## Title:)
+## Title:)Import and use of user defined packages
 ## SourceCode
 ```
 // ArithmeticOperations.java
